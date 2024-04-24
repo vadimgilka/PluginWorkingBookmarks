@@ -1,0 +1,89 @@
+
+.notif-container {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 2%;
+    background: #B5ABA2;
+    margin-right: 5%;
+    font-weight: 100;
+    height: 60vh;
+    scrollbar-color: #6A110B transparent;
+    scrollbar-width: thin;
+  }
+  
+
+
+  .map-header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+  }
+  
+  .map-addbutton {
+    margin-left:5%;
+  }
+  
+  .map-links {
+    font-size: large;
+  }
+  
+  .map-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+
+  
+  .map-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 15%;
+  }
+
+  
+  .prof-title1 {
+    color: #000000;
+    font-size: xx-large;
+  }
+
+  .notif-panel {
+    flex: 5;
+    padding: 20px;
+    font-size: xx-small;
+    background-color: #B5ABA2;
+  }
+
+  .map-title-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+    color: #000000;
+    font-family: 'Inika';
+  }
+
+  .profileName {
+    font-size: xx-large;
+  }
+
+  .logout {
+    font-size: x-large;
+    text-decoration-line: underline;    
+}  
+
+.nameAndIcon {
+    display: flex;
+}
+
+.notif-title {
+    color: #000000;
+}

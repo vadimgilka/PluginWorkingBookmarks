@@ -1,0 +1,22 @@
+NotesPage main view
+
+ <div className="header">
+            <h1>Notes</h1>
+            <IconButton icon={'./src/icons/Plus.png'} onClick={handleAddNote} style={ {marginLeft: '20px',  marginTop: '10px'}}/>
+            </div>
+           
+            < ItemsList  items={items} /> 
+        
+</div>
+
+
+
+<div className="left-panel">
+    <div className="header">
+    <h1>Notes</h1>
+    <IconButton icon={'./src/icons/Plus.png'} onClick={handleAddNote} style={ {marginLeft: '20px',  marginTop: '10px'}}/>
+    </div>
+    
+    < NotesEdit /> 
+
+</div>

@@ -1,0 +1,59 @@
+.headerStyle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inika;
+    font-size: x-large;
+    background: #706762;
+    color: #fff;
+    position: relative;
+    
+  };
+  
+
+
+ .backgroundStyle {
+    display: flex;
+    background: #6A110B; 
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+  };
+
+.iconStyle {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10rem;
+    padding-top: 1rem;
+  };
+
+
+
+
+.linkStyle {
+    text-decoration: none;
+    margin: 50px;
+    color: #FBEDDC;
+    margin-left: auto;
+    font-family: 'Inika'
+  };
+
+.linkStyle1 {
+    text-decoration: none;
+    color: #FBEDDC;
+    margin-left: 70px;
+    font-family: 'Inika'
+  };
+    .linkStyle1:hover {
+    color: #FBEDDC; /* Цвет ссылок */
+    text-decoration: none;
+  }
+
+  .linkStyle1:hover {
+    color: #FBEDDC; /* Цвет ссылок */
+    text-decoration: none;
+  }

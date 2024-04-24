@@ -1,0 +1,58 @@
+.list-container {
+ 
+    overflow-y: auto;
+    scrollbar-color: #6A110B transparent;
+    scrollbar-width: thin;
+    max-height: 55vh;
+  }
+  
+  .item-list {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .list-item {
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px;
+
+  }
+  
+
+
+  .card {
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    background: #6A110B;
+    font-size: x-large;
+    align-items: center;
+
+  }
+  
+  .title {
+    flex: 30;
+    justify-self: start;
+    color: #FBEDDC;
+    margin-top: 0%;
+  }
+
+  .noteName {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background: #6A110B;
+  }
+
+  .icons {
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-left: 10px;
+    flex: 10;
+    align-content: center;
+    margin-top: 2%;
+  }
+  

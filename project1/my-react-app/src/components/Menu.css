@@ -1,0 +1,38 @@
+.menu-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    background-color: #333; /* Цвет фона панели */
+    z-index: 1000; /* Чтобы панель оставалась поверх других элементов */
+  }
+  
+  .menu-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: #B5ABA2; /* Полупрозрачный фон за панелью */
+  }
+  
+  .menu-content {
+    position: absolute;
+    top: 10cap;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .menu-content a {
+    display: block;
+    margin-bottom: 15px;
+    color: #000000; /* Цвет ссылок */
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Inika';
+  }
+  .menu-content a:hover {
+    color: #000000; /* Цвет ссылок */
+    text-decoration: none;
+  }
