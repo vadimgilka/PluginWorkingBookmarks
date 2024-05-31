@@ -1,0 +1,7 @@
+.map-bg {
+    flex: 5;
+    padding: 20px;
+    font-size: xx-small;
+    background-color: #FBEDDC;
+    overflow: hidden;
+  }

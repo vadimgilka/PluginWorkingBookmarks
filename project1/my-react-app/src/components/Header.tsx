@@ -1,6 +1,15 @@
-import React, { CSSProperties } from "react";
+import React, { CSSProperties, useEffect, useState } from "react";
+import { Link} from 'react-router-dom';
 
-const Header = () => {
+const Header = ({isAuth}) => {
+  const [prof, setProf] = useState(<Link to="/signin" style={linkStyle}>Sign In</Link>);
+  useEffect(() => {
+    if (isAuth) {
+      setProf(<Link to="/profile" style={linkStyle}>Profile</Link>);
+    } else {
+      setProf(<Link to="/signin" style={linkStyle}>Login</Link>);
+    }
+  }, [isAuth]);
   return (
     <header style={headerStyle}>
       <div style={leftContentStyle}>
@@ -9,10 +18,10 @@ const Header = () => {
         </div>
       </div>
       
-      <a href="/profile" style={linkStyle1}>Web Service</a>
+      <Link to="/" style={linkStyle1}>Web Service</Link>
 
       <div style={rightContentStyle}>
-        <a href="/profile" style={linkStyle}>Profile</a>
+        {prof}
       </div>
     </header>
   );

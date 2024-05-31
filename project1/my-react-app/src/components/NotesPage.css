@@ -42,13 +42,14 @@
   .links {
     font-size: large;
   }
-  
+
   .links a {
     display: block;
     margin-bottom: 10px;
     color: #000000;
     text-decoration: none;
     color: #FFFFFF;
+
   }
 
   .title1 {
@@ -57,3 +58,25 @@
     margin-left: 15%;
     font-size: xx-large;
   }
+
+  .list-item1 {
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .cattitle
+  {
+    cursor: pointer;
+  }
+
+  .categinput
+ {
+  border: none;
+  outline: none;
+  height: 35px;
+  padding: 5px;
+  font-family: 'Inika';
+  font-size: large;
+ } 

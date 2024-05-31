@@ -2,7 +2,7 @@ import React from 'react';
 import './MapsList.css';
 import IconButton from './IconButton';
 
-const ItemsList = ({ items }) => {
+const ItemsList = ({ openMapEdit, items }) => {
     return (
         
       <div className="list-container">
@@ -10,17 +10,13 @@ const ItemsList = ({ items }) => {
         
         {items.map((item, index) => (
             <li key={index} className="list-item">
-            
-            
-            <div className="card">
-              <div className="title">{item}</div>
-                  <div className="icons">
-                      <IconButton icon={'./src/icons/edit_white.png'} onClick={handleEdit(index)} style={{marginLeft: '30px'}}/>
-                      <IconButton icon={'./src/icons/delete_white.png'} onClick={handleDelete(index)} style={{marginLeft: '30px', marginRight: '30px'}}/>
-                  </div>
-            </div>
-
-
+              <div className="card">
+                <div className="title">{item.name}</div>
+                <div className="icons">
+                    <IconButton icon={'./src/icons/edit_white.png'} onClick={()=>openMapEdit({item})} style={{marginLeft: '30px'}}/>
+                    <IconButton icon={'./src/icons/delete_white.png'} onClick={()=>handleDelete(index)} style={{marginLeft: '30px', marginRight: '30px'}}/>
+                </div>
+              </div>
             </li>
           ))}
         </ul>

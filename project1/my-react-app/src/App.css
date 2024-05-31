@@ -11,6 +11,11 @@
   transition: filter 300ms;
 }
 
-
+.errormsg {
+  margin-left: 15%;
+  color: #000;
+  margin-top: 20%;
+  font-size: xx-large;
+}
 
 

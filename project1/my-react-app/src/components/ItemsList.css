@@ -47,12 +47,14 @@
   }
 
   .icons {
+    display: flex;
     cursor: pointer;
     background: none;
     border: none;
     margin-left: 10px;
     flex: 10;
-    align-content: center;
-    margin-top: 2%;
+    align-content: end;
+    justify-content: end;
+    padding: 5px;
   }
   

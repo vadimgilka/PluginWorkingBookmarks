@@ -1,0 +1,31 @@
+.TextField {
+  flex: 15;
+  border: none;
+  outline: none;
+  height: 35px;
+  padding: 5px;
+  font-family: 'Inika';
+  font-size: large;
+}
+
+.title-signup {
+    color: black;
+    font-size: xx-large;
+    font-family: 'Inika';
+    font-weight: 400;
+    align-self: center;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.but-signup{
+    margin-top: 100px;
+    padding: 15px 40px;
+    cursor: pointer;
+    background-color: #6A110B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Inika';
+    width: 50%;
+}

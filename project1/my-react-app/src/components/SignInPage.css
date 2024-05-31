@@ -1,0 +1,10 @@
+.question {
+    color: #000000;
+    font-family: 'Inika';
+    font-size: x-large;
+}
+
+.question-container {
+    align-items: center;
+    justify-content: center;
+}
