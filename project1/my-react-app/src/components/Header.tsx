@@ -7,7 +7,7 @@ const Header = ({isAuth}) => {
     if (isAuth) {
       setProf(<Link to="/profile" style={linkStyle}>Profile</Link>);
     } else {
-      setProf(<Link to="/signin" style={linkStyle}>Login</Link>);
+      setProf(<Link to="/login" style={linkStyle}>Login</Link>);
     }
   }, [isAuth]);
   return (
