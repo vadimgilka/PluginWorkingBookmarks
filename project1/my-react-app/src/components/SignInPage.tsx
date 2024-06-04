@@ -28,6 +28,15 @@ export default function SignInForm() {
           const email = formData.get('email') as string;
           const password = formData.get("password") as string;
           
+          if(email == '' || password == '')
+            {
+              alert("Please fill all fields.");
+              return;
+            }
+
+
+
+
           fetch(server_address + "/login", {
             method: 'POST',
             headers: {

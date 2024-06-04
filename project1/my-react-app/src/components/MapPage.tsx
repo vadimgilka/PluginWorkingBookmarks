@@ -6,7 +6,7 @@ import IconButton from './IconButton.js';
 
 const nodes = [
     { text: 'Node 1', x:0, y:0, nodes:[{text: 'https://pypi.pyth...', url:"https://pypi.python.org/pypi/pip"}] },
-    { text: 'Node 2',x:0, y:0, nodes:[{text: 'https://ru.pinter...', url:"https://ru.pinterest.com/"}]  },
+    { text: 'Node 2',x:0, y:0, nodes:[{text: 'https://edu.vstu....', url:"https://edu.vstu.ru/"}]  },
     { text: 'Node 3',x:0, y:0, nodes:[{text: 'https://www.googl...', url:"https://www.google.com/maps"}] },
   ];
   

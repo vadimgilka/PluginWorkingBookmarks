@@ -150,7 +150,7 @@ export default function SignUpForm() {
         </Button>
         <div className="question-container" style={{display:'flex',border: 'none'}}>
           <p className="question">Already have an account? </p>
-          <Button onClick={()=>navigate("/signin")} sx={{
+          <Button onClick={()=>navigate("/login")} sx={{
             color: '#6A110B',
             fontFamily: 'Inika',
             fontSize: 'large',
